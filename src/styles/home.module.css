@@ -1,7 +1,7 @@
 .home {
   background: url("../assets/background.png") center no-repeat;
   background-size: contain;
-  height: 1715px;
+  /*height: 1715px;*/
   width: 100vw;
   left: calc(50% - 1404.12px / 2 - 96.94px);
   top: 546px;
