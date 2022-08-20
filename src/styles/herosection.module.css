@@ -1,0 +1,65 @@
+.herosection {
+  height: fit-content;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner {
+  padding-top: 60px;
+  width: 655px;
+  height: 648px;
+}
+
+.headline {
+  padding-top: 150px;
+  width: 472px;
+  height: 158px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 141.7%;
+}
+
+.subheadline {
+  width: 472px;
+  height: 117px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 151.7%;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 22px;
+  margin: 0;
+  border: 0;
+  gap: 12px;
+  width: 320px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+}
+
+.ctaText {
+  width: 208px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 147.69%;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.ctaIcon {
+  width: 26px;
+  height: 26px;
+}
+
+a {
+  text-decoration-line: none;
+}
