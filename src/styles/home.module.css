@@ -1,0 +1,8 @@
+.home {
+  background: url("../assets/background.png") center no-repeat;
+  background-size: contain;
+  height: 1715px;
+  width: 1404px;
+  left: calc(50% - 1404.12px / 2 - 96.94px);
+  top: 546px;
+}
