@@ -1,0 +1,48 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  height: 424px;
+  width: 100vw;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+.footerLeft > p {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 175px;
+  height: 33px;
+}
+.footerRight {
+  display: flex;
+  gap: 6rem;
+  padding-top: 80px;
+  padding-right: 80px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.reachUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.telefon {
+  width: fit-content;
+}
+
+.mail {
+}
