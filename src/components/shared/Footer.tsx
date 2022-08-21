@@ -13,33 +13,53 @@ const linkedinURL =
 
 export const Footer = (props: Props) => {
   return (
-    <div className={styles.footerContainer}>
-      <div className={styles.footerLeft}>
+    <footer className={styles.footerContainer}>
+      <section className={styles.footerLeft}>
         <img src={logo} alt="Logo" className={styles.logo} />
-        <p>492 Twisting Lane</p> <p>Beverly Hills, CA 90210</p>
-        <p>us</p>
-      </div>
-      <div className={styles.footerRight}>
-        <div className={styles.social}>
-          <p>Social</p>
-          <a href={facebookURL}>Facebook</a>
-          <a href={twitterURL}>Twitter</a>
-          <a href={instagramURL}>Instagram</a>
-          <a href={linkedinURL}>LinkedIn</a>
+        <div className={styles.adress}>
+          <p>492 Twisting Lane</p> <p>Beverly Hills, CA 90210</p>
+          <p>us</p>
         </div>
-        <div className={styles.reachUs}>
-          <p>Reach us</p>
-          <a href="src/components/shared/Footer">Contact form</a>
-          <div className={styles.telefon}>
-            <img src={telephone} alt="Telephone-Icon" />
-            <a href="src/components/shared/Footer">123456789</a>
+      </section>
+      <section className={styles.footerRight}>
+        <div className={styles.categoryContainer}>
+          <p className={styles.category}>Social</p>
+          <a href={facebookURL} className={styles.link}>
+            Facebook
+          </a>
+          <a href={twitterURL} className={styles.link}>
+            Twitter
+          </a>
+          <a href={instagramURL} className={styles.link}>
+            Instagram
+          </a>
+          <a href={linkedinURL} className={styles.link}>
+            LinkedIn
+          </a>
+        </div>
+        <div className={styles.categoryContainer}>
+          <p className={styles.category}>Reach us</p>
+          <a href="src/components/shared/Footer" className={styles.link}>
+            Contact form
+          </a>
+          <div>
+            <img
+              src={telephone}
+              alt="Telephone-Icon"
+              className={styles.telephone}
+            />
+            <a href="src/components/shared/Footer" className={styles.contact}>
+              123456789
+            </a>
           </div>
-          <div className={styles.mail}>
-            <img src={mail} alt="Mail-Icon" />
-            <a href="src/components/shared/Footer">mail@mail.com</a>
+          <div>
+            <img src={mail} alt="Mail-Icon" className={styles.mail} />
+            <a href="src/components/shared/Footer" className={styles.contact}>
+              mail@mail.com
+            </a>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </footer>
   );
 };
