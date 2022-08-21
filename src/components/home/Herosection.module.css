@@ -60,6 +60,8 @@
   height: 26px;
 }
 
+/* TODO text decoration auf die Klasse beziehen und nicht global einstellen */
+
 a {
   text-decoration-line: none;
 }

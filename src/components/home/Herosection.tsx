@@ -1,7 +1,7 @@
-import banner from "../assets/hero.png";
-import styles from "../styles/herosection.module.css";
+import banner from "../../assets/hero.png";
+import styles from "./Herosection.module.css";
 import { Link } from "react-router-dom";
-import send from "../assets/send.png";
+import send from "../../assets/send.png";
 
 interface Props {}
 

@@ -1,5 +1,5 @@
-import styles from "../styles/navbar.module.css";
-import logo from "../assets/logo.png";
+import styles from "./navbar.module.css";
+import logo from "../../assets/logo.png";
 interface Props {}
 
 export const Navbar = (props: Props) => {
@@ -9,7 +9,7 @@ export const Navbar = (props: Props) => {
         <img src={logo} alt="Logo" className={styles.logo} />
       </div>
       <div className={styles.account}>
-        <a href="">Log in</a>
+        <a href="src/components/shared/Navbar">Log in</a>
         <button>Manage my DM's</button>
       </div>
     </div>

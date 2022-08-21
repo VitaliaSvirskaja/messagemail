@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "./Home";
-import { CreateAccount } from "./CreateAccount";
-import { Navbar } from "./components/Navbar";
+import { HomePage } from "./pages/HomePage";
+import { CreateAccountPage } from "./pages/CreateAccountPage";
+import { Navbar } from "./components/shared/Navbar";
 import React from "react";
-import { Footer } from "./components/Footer";
+import { Footer } from "./components/shared/Footer";
 
 export const App = () => {
   return (
@@ -12,8 +12,8 @@ export const App = () => {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route path="" element={<Home />} />
-          <Route path="/account" element={<CreateAccount />} />
+          <Route path="" element={<HomePage />} />
+          <Route path="/account" element={<CreateAccountPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

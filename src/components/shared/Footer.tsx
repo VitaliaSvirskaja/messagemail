@@ -1,7 +1,7 @@
-import styles from "../styles/footer.module.css";
-import logo from "../assets/logo.png";
-import telephone from "../assets/telephone.png";
-import mail from "../assets/mail.png";
+import styles from "./footer.module.css";
+import logo from "../../assets/logo.png";
+import telephone from "../../assets/telephone.png";
+import mail from "../../assets/mail.png";
 interface Props {}
 
 const facebookURL =
@@ -29,14 +29,14 @@ export const Footer = (props: Props) => {
         </div>
         <div className={styles.reachUs}>
           <p>Reach us</p>
-          <a href="">Contact form</a>
+          <a href="src/components/shared/Footer">Contact form</a>
           <div className={styles.telefon}>
             <img src={telephone} alt="Telephone-Icon" />
-            <a href="">123456789</a>
+            <a href="src/components/shared/Footer">123456789</a>
           </div>
           <div className={styles.mail}>
             <img src={mail} alt="Mail-Icon" />
-            <a href="">mail@mail.com</a>
+            <a href="src/components/shared/Footer">mail@mail.com</a>
           </div>
         </div>
       </div>
