@@ -2,6 +2,7 @@ import banner from "../../assets/hero.png";
 import styles from "./Herosection.module.css";
 import { Link } from "react-router-dom";
 import send from "../../assets/send.png";
+import { CTA } from "../shared/CTA";
 
 interface Props {}
 
@@ -15,10 +16,7 @@ export const Herosection = (props: Props) => {
           account’s direct messages!
         </h2>
         <Link to="/account">
-          <button className={styles.cta}>
-            <a className={styles.ctaText}>Manage my DM's</a>
-            <img src={send} alt="Send-Icon" className={styles.ctaIcon} />
-          </button>
+          <CTA withIcon={true} />
         </Link>
       </div>
       <img src={banner} alt="Hero-Banner" className={styles.banner} />

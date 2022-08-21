@@ -1,0 +1,51 @@
+.ctaButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 70px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  padding: 16px 22px;
+  gap: 12px;
+  border: none;
+}
+
+.ctaButtonWithoutIcon {
+  width: 204px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  padding: 11px 20px;
+  border: none;
+}
+
+.buttonText {
+  color: white;
+  font-family: "Nunito", serif;
+  width: 208px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.buttonTextWithoutIcon {
+  color: white;
+  font-family: "Nunito", serif;
+  width: 161px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.buttonIcon {
+  width: 26px;
+  height: 26px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* TODO text-decoration nicht global definieren*/
+/* TODO CTA weitere props mitgeben, sodass beispielsweise bei small Variante ein weiterer Klassenname ergänzt wird und somit die CSS properties überschrieben werden*/

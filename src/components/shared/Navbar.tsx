@@ -1,5 +1,6 @@
 import styles from "./navbar.module.css";
 import logo from "../../assets/logo.png";
+import { CTA } from "./CTA";
 interface Props {}
 
 export const Navbar = (props: Props) => {
@@ -10,7 +11,7 @@ export const Navbar = (props: Props) => {
       </div>
       <div className={styles.account}>
         <a href="src/components/shared/Navbar">Log in</a>
-        <button>Manage my DM's</button>
+        <CTA withIcon={false} />
       </div>
     </div>
   );

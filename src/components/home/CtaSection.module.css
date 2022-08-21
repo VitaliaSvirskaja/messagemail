@@ -21,30 +21,3 @@
   font-weight: 700;
   font-size: 26px;
 }
-
-.ctaButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 320px;
-  height: 70px;
-  border-radius: 4px;
-  background-color: var(--primary-color);
-  padding: 16px 22px;
-  gap: 12px;
-  border: none;
-}
-
-.buttonText {
-  color: white;
-  font-family: "Nunito", serif;
-  width: 208px;
-  height: 38px;
-  font-weight: 700;
-  font-size: 26px;
-}
-
-.buttonIcon {
-  width: 26px;
-  height: 26px;
-}
