@@ -1,5 +1,6 @@
 .home {
-  z-index: -1;
-  background: url("../assets/background.png") center no-repeat;
+  background: url("../assets/backgroundHome.png") no-repeat;
   background-size: contain;
+  background-position-y: 38rem;
+  background-position-x: -5rem;
 }

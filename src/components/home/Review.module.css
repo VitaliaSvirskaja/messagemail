@@ -1,6 +1,5 @@
 .reviewContainer {
   height: 576px;
-  top: 1524px;
   background: var(--primary-color-light);
   display: flex;
   flex-direction: row;
@@ -27,15 +26,12 @@
 .reviewHeader {
   width: 239px;
   height: 52px;
-  left: 128px;
-  top: 1444px;
   font-family: "Nunito", serif;
   font-weight: 700;
   font-size: 38px;
   text-align: center;
   color: black;
   padding-left: 120px;
-  padding-top: 188px;
   padding-bottom: 28px;
   margin: 0;
 }
