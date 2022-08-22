@@ -11,7 +11,7 @@ export const Navbar = (props: Props) => {
       </div>
       <div className={styles.account}>
         <a href="src/components/shared/Navbar">Log in</a>
-        <CTA withIcon={false} />
+        <CTA withIcon={false} size="small" />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ export const CtaSection = (props: Props) => {
   return (
     <div className={styles.ctaContainer}>
       <p className={styles.ctaText}>Ready to start?</p>
-      <CTA withIcon={true} />
+      <CTA withIcon={true} size="normal" />
     </div>
   );
 };
