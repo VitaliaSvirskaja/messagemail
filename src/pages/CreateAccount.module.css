@@ -1,0 +1,80 @@
+.content {
+  background: url("../assets/backgroundCreateAccount.png") no-repeat;
+  background-size: contain;
+  background-position-y: 17.75rem;
+  background-position-x: -3.5rem;
+  /*width: 1421.12px;*/
+  /*height: 1260.55px;*/
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4.8rem 16.5rem 23.3rem;
+  gap: 9rem;
+}
+
+.accountForm {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-self: center;
+  width: 56rem;
+  height: 44rem;
+  background-color: var(--primary-color-light);
+  gap: 4rem;
+  padding: 3.8rem 2.8rem;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+input {
+  height: 3.75rem;
+}
+label {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.accountHeader1,
+.accountHeader2 {
+  margin: 0;
+}
+
+.accountHeader1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.accountHeader2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 151.7%;
+  text-align: center;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+  margin-left: 5.5rem;
+  margin-right: 5.5rem;
+}
+
+.submitButton {
+  width: 11.3rem;
+  height: 3.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--primary-color);
+  color: white;
+  align-self: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
