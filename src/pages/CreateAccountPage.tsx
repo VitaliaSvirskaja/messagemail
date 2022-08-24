@@ -1,8 +1,17 @@
 import styles from "./CreateAccount.module.css";
-
+import eyeIcon from "../assets/eye.png";
+import eyeOffIcon from "../assets/eye-off.png";
+import { FormField } from "../components/shared/FormField";
+import { useState } from "react";
 interface Props {}
 
 export const CreateAccountPage = (props: Props) => {
+  const [passwordVisible, setPasswordVisible] = useState<boolean>(false);
+
+  function handleEyeclick() {
+    setPasswordVisible(!passwordVisible);
+  }
+
   return (
     <div className={styles.content}>
       <div className={styles.contentContainer}>
@@ -13,24 +22,31 @@ export const CreateAccountPage = (props: Props) => {
             asked to connect your various social media accounts.
           </h2>
         </div>
-        <div className={styles.accountForm}>
+        <form className={styles.accountForm}>
+          <FormField type={"text"} label={"Name"} />
           <div className={styles.formField}>
-            <label htmlFor="Name">Name</label>
-            <input type="text" />
+            <FormField type={"text"} label={"Email Adress"} />
           </div>
           <div className={styles.formField}>
-            <label htmlFor="Email Adress">Email Adress</label>
-            <input type="text" />
+            <FormField
+              type={passwordVisible ? "text" : "password"}
+              label={"Password"}
+            />
+            <img
+              src={passwordVisible ? eyeOffIcon : eyeIcon}
+              alt="Eye-Icon"
+              className={styles.eyeIcon}
+              onClick={handleEyeclick}
+            />
           </div>
-          <div className={styles.formField}>
-            <label htmlFor="Name">Password</label>
-            <input type="password" />
-          </div>
+
           <button className={styles.submitButton} type="submit">
             Next
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );
 };
+
+//TODO eye icon für show_hide password erstellen -> setInputType "text" bzw. "password"

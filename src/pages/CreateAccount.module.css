@@ -28,11 +28,6 @@
   padding: 3.8rem 2.8rem;
 }
 
-.formField {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
 input {
   height: 3.75rem;
 }
@@ -77,4 +72,13 @@ label {
   align-self: center;
   font-weight: 700;
   font-size: 1.6rem;
+}
+
+.eyeIcon {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: relative;
+  right: -53rem;
+  bottom: 2.7rem;
+  cursor: pointer;
 }

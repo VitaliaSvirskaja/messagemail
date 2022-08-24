@@ -1,0 +1,15 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.formField:focus {
+  border: 2px solid var(--primary-color);
+}
+
+.inputField {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Nunito", serif;
+}
