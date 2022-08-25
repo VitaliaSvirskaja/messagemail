@@ -5,6 +5,7 @@
   background-color: var(--primary-color);
   padding: 16px 22px;
   border: none;
+  cursor: pointer;
 }
 
 .ctaButtonWithIcon {
@@ -39,9 +40,3 @@
   width: 26px;
   height: 26px;
 }
-
-a {
-  text-decoration: none;
-}
-
-/* TODO text-decoration nicht global definieren*/

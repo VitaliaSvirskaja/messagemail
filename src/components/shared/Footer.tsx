@@ -15,7 +15,9 @@ export const Footer = (props: Props) => {
   return (
     <footer className={styles.footerContainer}>
       <section className={styles.footerLeft}>
-        <img src={logo} alt="Logo" className={styles.logo} />
+        <a href="/">
+          <img src={logo} alt="Logo" className={styles.logo} />
+        </a>
         <div className={styles.adress}>
           <p>492 Twisting Lane</p> <p>Beverly Hills, CA 90210</p>
           <p>us</p>

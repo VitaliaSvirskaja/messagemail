@@ -20,4 +20,11 @@
   height: fit-content;
   margin: 0;
   padding-right: 80px;
+  align-items: center;
+}
+
+.logIn {
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 1.25rem;
 }

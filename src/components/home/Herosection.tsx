@@ -1,6 +1,5 @@
 import banner from "../../assets/hero.png";
 import styles from "./Herosection.module.css";
-import { Link } from "react-router-dom";
 import { CTA } from "../shared/CTA";
 
 interface Props {}
@@ -14,9 +13,7 @@ export const Herosection = (props: Props) => {
           We offer you a central location to manage all of your social media
           account’s direct messages!
         </h2>
-        <Link to="/account">
-          <CTA withIcon={true} size="normal" />
-        </Link>
+        <CTA withIcon={true} size="normal" />
       </div>
       <img src={banner} alt="Hero-Banner" className={styles.banner} />
     </div>

@@ -6,11 +6,17 @@ interface Props {}
 export const Navbar = (props: Props) => {
   return (
     <div className={styles.navbar}>
-      <div>
+      <a href="/">
         <img src={logo} alt="Logo" className={styles.logo} />
-      </div>
+      </a>
       <div className={styles.account}>
-        <a href="src/components/shared/Navbar">Log in</a>
+        <a
+          href="/login"
+          style={{ textDecoration: "none" }}
+          className={styles.logIn}
+        >
+          Login
+        </a>
         <CTA withIcon={false} size="small" />
       </div>
     </div>

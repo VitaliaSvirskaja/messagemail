@@ -8,7 +8,7 @@ interface Props {
 
 export const CTA = (props: Props) => {
   return (
-    <div>
+    <a href="/account" style={{ textDecoration: "none" }}>
       {props.withIcon && props.size === "normal" ? (
         <button className={`${styles.ctaButton} ${styles.ctaButtonWithIcon}`}>
           <p className={`${styles.buttonText} ${styles.buttonTextWithIcon}`}>
@@ -22,6 +22,6 @@ export const CTA = (props: Props) => {
           <p className={styles.buttonText}> Manage my DM's</p>
         </button>
       )}
-    </div>
+    </a>
   );
 };
