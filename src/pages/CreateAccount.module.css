@@ -1,12 +1,3 @@
-.content {
-  background: url("../assets/backgroundCreateAccount.png") no-repeat;
-  background-size: contain;
-  background-position-y: 17.75rem;
-  background-position-x: -3.5rem;
-  /*width: 1421.12px;*/
-  /*height: 1260.55px;*/
-}
-
 .contentContainer {
   display: flex;
   flex-direction: column;
