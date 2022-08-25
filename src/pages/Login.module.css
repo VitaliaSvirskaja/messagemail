@@ -1,0 +1,98 @@
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #d9d9d9;
+  margin: 0 7.25rem 6rem;
+  align-content: center;
+}
+
+.headerLogin {
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 5.6rem;
+  margin-bottom: 3.5rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-self: center;
+  gap: 4rem;
+  width: 56rem;
+  background-color: var(--primary-color-light);
+  padding: 3.8rem 2.8rem;
+  margin-bottom: 7.75rem;
+}
+
+.eyeIcon {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: relative;
+  right: -53rem;
+  top: -3rem;
+  cursor: pointer;
+}
+
+.submitButton {
+  width: 11.3rem;
+  height: 3.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--primary-color);
+  color: white;
+  align-self: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 15rem;
+}
+
+.registerButton {
+  width: 20rem;
+  height: 4.4rem;
+  border-radius: 0.25rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.headerRegister {
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  height: 3.75rem;
+}
+label {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.forgotPassword {
+  text-decoration: underline;
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
