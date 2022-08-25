@@ -1,4 +1,4 @@
-import styles from "./footer.module.css";
+import styles from "./Footer.module.css";
 import logo from "../../assets/logo.png";
 import telephone from "../../assets/telephone.png";
 import mail from "../../assets/mail.png";
@@ -50,13 +50,21 @@ export const Footer = (props: Props) => {
               alt="Telephone-Icon"
               className={styles.telephone}
             />
-            <a href="src/components/shared/Footer" className={styles.contact}>
+            <a
+              href="src/components/shared/Footer"
+              className={styles.contact}
+              style={{ textDecoration: "none" }}
+            >
               123456789
             </a>
           </div>
           <div>
             <img src={mail} alt="Mail-Icon" className={styles.mail} />
-            <a href="src/components/shared/Footer" className={styles.contact}>
+            <a
+              href="src/components/shared/Footer"
+              className={styles.contact}
+              style={{ textDecoration: "none" }}
+            >
               mail@mail.com
             </a>
           </div>

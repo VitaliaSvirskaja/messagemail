@@ -75,3 +75,7 @@ p {
   line-height: 54px;
   margin-left: 0.8rem;
 }
+
+a {
+  color: inherit;
+}
