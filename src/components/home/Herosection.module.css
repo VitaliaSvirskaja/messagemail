@@ -1,30 +1,36 @@
 .herosection {
-  height: fit-content;
-  padding: 3.75rem 5rem 6.6rem;
+  padding: 4rem 5rem 6.6rem;
   display: flex;
   justify-content: space-between;
   height: 40.5rem;
+  gap: 6rem;
 }
 
 .banner {
-  padding-top: 60px;
-  width: 655px;
-  height: 648px;
+  width: 580px;
+  height: 570px;
+}
+
+.herosectionLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
 }
 
 .headline {
-  padding-top: 150px;
-  width: 472px;
-  height: 158px;
+  font-family: "Nunito", serif;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 3.5rem;
   line-height: 141.7%;
+  margin: 0;
 }
 
 .subheadline {
-  width: 472px;
-  height: 117px;
+  font-family: "Nunito", serif;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 1.6rem;
   line-height: 151.7%;
+  margin: 0;
+  /*width: 495px;*/
 }

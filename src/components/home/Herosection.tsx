@@ -7,7 +7,7 @@ interface Props {}
 export const Herosection = (props: Props) => {
   return (
     <div className={styles.herosection}>
-      <div>
+      <div className={styles.herosectionLeft}>
         <h1 className={styles.headline}>Manage your DM's with Ease</h1>
         <h2 className={styles.subheadline}>
           We offer you a central location to manage all of your social media
