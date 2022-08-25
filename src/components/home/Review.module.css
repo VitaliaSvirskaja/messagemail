@@ -1,5 +1,4 @@
 .reviewContainer {
-  height: 576px;
   background: var(--primary-color-light);
   display: flex;
   flex-direction: row;
@@ -11,14 +10,12 @@
 .reviewCard {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
-
+  padding: 2.6rem 3.3rem;
+  gap: 2rem;
   width: 370px;
-  /*height: 446px;*/
-  height: 100%;
-
+  /*height: 100%;*/
   background: white;
   border-radius: 4px;
 }
@@ -34,4 +31,24 @@
   padding-left: 120px;
   padding-bottom: 28px;
   margin: 0;
+}
+
+.reviewText {
+  text-align: center;
+  font-family: "Nunito", serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 144%;
+  color: var(--text-color);
+  height: 8.6rem;
+}
+
+.reviewPersonname {
+  color: var(--text-color-light);
+  height: fit-content;
+}
+
+.personImage {
+  width: 6.6rem;
+  height: 6.6rem;
 }
