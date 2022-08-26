@@ -6,6 +6,7 @@ import { Navbar } from "./components/shared/Navbar";
 import React from "react";
 import { Footer } from "./components/shared/Footer";
 import { Login } from "./pages/Login";
+import { ContactUs } from "./pages/ContactUs";
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
           <Route path="" element={<HomePage />} />
           <Route path="/account" element={<CreateAccountPage />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </BrowserRouter>

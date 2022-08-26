@@ -41,7 +41,7 @@ export const Footer = (props: Props) => {
         </div>
         <div className={styles.categoryContainer}>
           <p className={styles.category}>Reach us</p>
-          <a href="src/components/shared/Footer" className={styles.link}>
+          <a href="/contact" className={styles.link}>
             Contact form
           </a>
           <div>
