@@ -9,10 +9,15 @@ interface Props {
 export const FormField = (props: Props) => {
   return (
     <div className={styles.formField}>
-      <label htmlFor={props.label}>{props.label}</label>
-      <input type={props.type} className={styles.inputField} required />
+      <label htmlFor={props.label} className={styles.label}>
+        {props.label}
+      </label>
+      <input
+        type={props.type}
+        className={styles.inputField}
+        id={props.label}
+        required
+      />
     </div>
   );
 };
-
-//TODO htmlFor besprechen

@@ -48,5 +48,3 @@ export const CreateAccountPage = (props: Props) => {
     </div>
   );
 };
-
-//TODO eye icon für show_hide password erstellen -> setInputType "text" bzw. "password"

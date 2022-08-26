@@ -1,6 +1,5 @@
 import { FormField } from "../components/shared/FormField";
 import styles from "./ContactUs.module.css";
-import { CTA } from "../components/shared/CTA";
 
 interface Props {}
 
@@ -16,7 +15,7 @@ export const ContactUs = (props: Props) => {
           You can also send an e-mail to:contact@messagemail.com
         </h2>
       </div>
-      <div className={styles.formField}>
+      <form className={styles.formField}>
         <FormField type={"email"} label={"Email Adress"}></FormField>
         <div className={styles.messageField}>
           <label htmlFor="message" className={styles.label}>
@@ -27,14 +26,17 @@ export const ContactUs = (props: Props) => {
             maxLength={300}
             rows={15}
             className={styles.messageInput}
+            required
           >
             {" "}
           </textarea>
         </div>
         <div className={styles.ctaButton}>
-          <CTA withIcon={false} size="normal" buttonText={"Send message"} />
+          <button className={styles.submitButton} type="submit">
+            Send message
+          </button>
         </div>
-      </div>
+      </form>
     </div>
   );
 };
