@@ -13,7 +13,7 @@ export const Herosection = (props: Props) => {
           We offer you a central location to manage all of your social media
           account’s direct messages!
         </h2>
-        <CTA withIcon={true} size="normal" />
+        <CTA withIcon={true} size="normal" buttonText={"Manage my DM's"} />
       </div>
       <img src={banner} alt="Hero-Banner" className={styles.banner} />
     </div>

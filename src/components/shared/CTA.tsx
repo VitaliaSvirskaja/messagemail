@@ -4,6 +4,7 @@ import sendIcon from "../../assets/send.png";
 interface Props {
   withIcon: boolean;
   size: "small" | "normal";
+  buttonText: string;
 }
 
 export const CTA = (props: Props) => {
@@ -12,14 +13,13 @@ export const CTA = (props: Props) => {
       {props.withIcon && props.size === "normal" ? (
         <button className={`${styles.ctaButton} ${styles.ctaButtonWithIcon}`}>
           <p className={`${styles.buttonText} ${styles.buttonTextWithIcon}`}>
-            {" "}
-            Manage my DM's
+            {props.buttonText}
           </p>
           <img src={sendIcon} alt="Send-Icon" className={styles.buttonIcon} />
         </button>
       ) : (
         <button className={`${styles.ctaButton} ${styles.ctaButtonSmall}`}>
-          <p className={styles.buttonText}> Manage my DM's</p>
+          <p className={styles.buttonText}>{props.buttonText}</p>
         </button>
       )}
     </a>
