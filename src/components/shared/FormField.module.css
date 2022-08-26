@@ -13,3 +13,9 @@
   font-weight: 400;
   font-family: "Nunito", serif;
 }
+
+.label {
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
