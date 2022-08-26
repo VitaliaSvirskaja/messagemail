@@ -16,10 +16,9 @@ export const Login = (props: Props) => {
     <div className={styles.contentContainer}>
       <div className={styles.loginContainer}>
         <h1 className={styles.headerLogin}>Welcome back!</h1>
-        <div className={styles.formContainer}>
+        <form className={styles.formContainer}>
           <div>
-            {" "}
-            <FormField type={"text"} label={"Email Adress"} />
+            <FormField type={"email"} label={"Email Adress"} />
           </div>
           <div>
             <FormField
@@ -38,7 +37,7 @@ export const Login = (props: Props) => {
           <button className={styles.submitButton} type="submit">
             Login
           </button>
-        </div>
+        </form>
       </div>
       <div className={styles.registerContainer}>
         <h2 className={styles.headerRegister}>New here?</h2>

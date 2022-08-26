@@ -25,7 +25,7 @@ export const CreateAccountPage = (props: Props) => {
         <form className={styles.accountForm}>
           <FormField type={"text"} label={"Name"} />
           <div className={styles.formField}>
-            <FormField type={"text"} label={"Email Adress"} />
+            <FormField type={"email"} label={"Email Adress"} />
           </div>
           <div className={styles.formField}>
             <FormField
