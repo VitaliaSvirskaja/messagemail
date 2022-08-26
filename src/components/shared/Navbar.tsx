@@ -17,7 +17,7 @@ export const Navbar = (props: Props) => {
         >
           Login
         </a>
-        <CTA withIcon={false} size="small" />
+        <CTA withIcon={false} size="small" buttonText={"Manage my DM's"} />
       </div>
     </div>
   );
