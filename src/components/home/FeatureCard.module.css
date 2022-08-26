@@ -1,0 +1,30 @@
+.featureBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 22.75rem;
+  background: var(--primary-color-light);
+  border-radius: 4px;
+  padding: 0 68px 3.5rem;
+}
+
+.featureText {
+  text-align: center;
+  vertical-align: text-top;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 144%;
+  height: 7rem;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.featureIcon {
+  width: 7.5rem;
+  height: 7rem;
+  position: relative;
+  top: -3.5rem;
+}
